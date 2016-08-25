@@ -1,4 +1,4 @@
-/* Copyright (C) 2013-2015 by Jacob Alexander
+/* Copyright (C) 2013-2016 by Jacob Alexander
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -30,19 +30,19 @@
 // You can change these to give your code its own name.
 #define STR_MANUFACTURER        L"Kiibohd"
 #define STR_PRODUCT             L"Keyboard - WhiteFox PartialMap pjrcUSB full"
-#define STR_SERIAL              L"Clean master - 2016-05-31 00:40:10 -0700"
+#define STR_SERIAL              L"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX - mk20dx256vlh7"
 
 
 // Strings used in the CLI module
-#define CLI_Revision            "358d480ea9862106f851cbb68c1d68da7369ddd5"
+#define CLI_Revision            "22a24e967b29cb729b6c3438e9b6521e797d9c13"
 #define CLI_Branch              "master"
 #define CLI_ModifiedStatus      "Clean"
 #define CLI_ModifiedFiles       "\r\n\t"
 #define CLI_RepoOrigin          "https://github.com/kiibohd/controller.git"
-#define CLI_CommitDate          "2016-05-31 00:40:10 -0700"
+#define CLI_CommitDate          "2016-08-18 22:49:51 -0700"
 #define CLI_CommitAuthor        "Jacob Alexander <haata@kiibohd.com>"
 #define CLI_Modules             "Scan(WhiteFox) Macro(PartialMap) Output(pjrcUSB) Debug(full)"
-#define CLI_BuildDate           "2016-07-31 23:36:03 +0000"
+#define CLI_BuildDate           "2016-08-25 14:01:06 +0000"
 #define CLI_BuildOS             "Linux-4.1.5-x86_64-linode61"
 #define CLI_Arch                "arm"
 #define CLI_Chip                "mk20dx256vlh7"
@@ -56,4 +56,5 @@
 // match the INF file.
 #define VENDOR_ID               0x1C11
 #define PRODUCT_ID              0xB04D
+#define BCD_VERSION             471
 

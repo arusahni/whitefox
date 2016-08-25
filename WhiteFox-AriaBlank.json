@@ -766,8 +766,8 @@
                     "label": ","
                 },
                 "2": {
-                    "key": "LALT",
-                    "label": "LALT"
+                    "key": "CONS:SCANPREVIOUSTRACK",
+                    "label": "PREV"
                 }
             }
         },
@@ -869,8 +869,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "LGUI",
-                    "label": "LGUI"
+                    "key": "LALT",
+                    "label": "LALT"
                 }
             }
         },
@@ -882,8 +882,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "LALT",
-                    "label": "LALT"
+                    "key": "LGUI",
+                    "label": "LGUI"
                 }
             }
         },
@@ -897,6 +897,10 @@
                 "0": {
                     "key": "SPACE",
                     "label": "[&nbsp;]"
+                },
+                "2": {
+                    "key": "CONS:PAUSEPLAY",
+                    "label": "PL\/PS"
                 }
             }
         },
@@ -908,8 +912,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "RALT",
-                    "label": "RALT"
+                    "key": "RGUI",
+                    "label": "RGUI"
                 }
             }
         },
@@ -921,8 +925,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "RCTRL",
-                    "label": "RCTRL"
+                    "key": "RALT",
+                    "label": "RALT"
                 }
             }
         },
