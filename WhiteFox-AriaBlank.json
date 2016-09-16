@@ -447,12 +447,12 @@
                     "label": "DEL"
                 },
                 "1": {
-                    "key": "#:ledControl( 5, 0, 0 )",
-                    "label": "LED OFF"
-                },
-                "2": {
                     "key": "CONS:MUTE",
                     "label": "MUTE"
+                },
+                "2": {
+                    "key": "#:ledControl( 5, 0, 0 )",
+                    "label": "LED OFF"
                 }
             }
         },
@@ -637,12 +637,12 @@
                     "label": "PGUP"
                 },
                 "1": {
-                    "key": "#:ledControl( 4, 15, 0 )",
-                    "label": "LED+"
-                },
-                "2": {
                     "key": "CONS:VOLUMEUP",
                     "label": "VOL+"
+                },
+                "2": {
+                    "key": "#:ledControl( 4, 15, 0 )",
+                    "label": "LED+"
                 }
             }
         },
@@ -765,7 +765,7 @@
                     "key": "COMMA",
                     "label": ","
                 },
-                "2": {
+                "1": {
                     "key": "CONS:SCANPREVIOUSTRACK",
                     "label": "PREV"
                 }
@@ -782,7 +782,7 @@
                     "key": "PERIOD",
                     "label": "."
                 },
-                "2": {
+                "1": {
                     "key": "CONS:SCANNEXTTRACK",
                     "label": "NEXT"
                 }
@@ -839,12 +839,12 @@
                     "label": "PGDN"
                 },
                 "1": {
-                    "key": "#:ledControl( 3, 15, 0 )",
-                    "label": "LED-"
-                },
-                "2": {
                     "key": "CONS:VOLUMEDOWN",
                     "label": "VOL-"
+                },
+                "2": {
+                    "key": "#:ledControl( 3, 15, 0 )",
+                    "label": "LED-"
                 }
             }
         },
@@ -898,7 +898,7 @@
                     "key": "SPACE",
                     "label": "[&nbsp;]"
                 },
-                "2": {
+                "1": {
                     "key": "CONS:PAUSEPLAY",
                     "label": "PL\/PS"
                 }
